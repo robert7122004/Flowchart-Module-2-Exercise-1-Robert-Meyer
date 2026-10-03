@@ -1,0 +1,194 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="6560" dy="4042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#663300)" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="ortmbv6ZhttqqVJy0lko-86" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="177.49999999999955" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;b&gt;START Program&lt;/b&gt;" vertex="1">
+          <mxGeometry height="140" width="235" x="60" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-5" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;b&gt;Collect Employee Information from the Database&lt;/b&gt;" vertex="1">
+          <mxGeometry height="110" width="190" x="70" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-29" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;b&gt;Retrieve Employee Pay Rate from Employee ID&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="190" x="65" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-41" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ortmbv6ZhttqqVJy0lko-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-59" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-6" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;b&gt;Calculate Gross Pay&lt;/b&gt;&lt;div&gt;&lt;b&gt;Gross Pay=Hours worked*Pay rate&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="260" x="60" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-91" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="196.24999999999955" y="830.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-11" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;b&gt;Calculate Federal Taxes&lt;/b&gt;&lt;div&gt;&lt;b&gt;Gross Pay*Federal Tax rate&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Gross Pay*7.9%=Federal Taxes&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="272.5" x="60" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-90" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ortmbv6ZhttqqVJy0lko-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-13" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;b&gt;Calculate State Taxes&lt;/b&gt;&lt;div&gt;&lt;b&gt;Gross Pay*State Tax rate&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Gross Pay*5.6%&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="292.5" x="37.5" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-43" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ortmbv6ZhttqqVJy0lko-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="450" />
+              <mxPoint x="600" y="450" />
+              <mxPoint x="600" y="390" />
+            </Array>
+            <mxPoint x="600" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-44" connectable="0" parent="ortmbv6ZhttqqVJy0lko-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES" vertex="1">
+          <mxGeometry relative="1" x="0.0471" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-45" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="ortmbv6ZhttqqVJy0lko-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="468" y="660" />
+              <mxPoint x="470" y="660" />
+              <mxPoint x="470" y="750" />
+            </Array>
+            <mxPoint x="280" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-47" connectable="0" parent="ortmbv6ZhttqqVJy0lko-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.501" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-82" connectable="0" parent="ortmbv6ZhttqqVJy0lko-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="0.5661" y="5" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-16" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;Is Number of Hours &amp;gt;40&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="190" x="414" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-24" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Calculate Overtime Pay rate&amp;nbsp;&lt;br&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Overtime Pay rate=Regular Pay rate*1.5&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="170" x="670" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-55" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ortmbv6ZhttqqVJy0lko-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="460" as="sourcePoint" />
+            <mxPoint x="760" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-60" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="755" y="620" />
+              <mxPoint x="755" y="620" />
+            </Array>
+            <mxPoint x="330" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-61" connectable="0" parent="ortmbv6ZhttqqVJy0lko-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.295" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-26" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Calculate Employee Total Gross Pay&lt;br&gt;Total Gross Pay=Regular Gross Pay + Overtime Gross Pay" vertex="1">
+          <mxGeometry height="90" width="170" x="670" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-93" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="183.74999999999955" y="1220.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-63" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;b&gt;Display Employee Pay Results&lt;/b&gt;" vertex="1">
+          <mxGeometry height="140" width="272.5" x="47.5" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-78" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="1770" />
+              <mxPoint x="-70" y="1770" />
+              <mxPoint x="-70" y="-180" />
+            </Array>
+            <mxPoint x="50" y="-180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-79" connectable="0" parent="ortmbv6ZhttqqVJy0lko-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="0.6038" y="-1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-81" connectable="0" parent="ortmbv6ZhttqqVJy0lko-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.9482" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-98" connectable="0" parent="ortmbv6ZhttqqVJy0lko-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO WHILE COUNT &amp;lt;10" vertex="1">
+          <mxGeometry relative="1" x="-0.4994" y="-1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-87" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ortmbv6ZhttqqVJy0lko-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-99" connectable="0" parent="ortmbv6ZhttqqVJy0lko-87" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES WHEN COUNT IS &amp;gt;=10" vertex="1">
+          <mxGeometry relative="1" x="-0.2066" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-65" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;b&gt;Is Number Of Employee Count&amp;nbsp; Results &amp;gt;=10?&lt;/b&gt;" vertex="1">
+          <mxGeometry height="190" width="235" x="47.5" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-74" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;b&gt;END THE PROGRAM&lt;/b&gt;" vertex="1">
+          <mxGeometry height="150" width="315" x="790" y="1455" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-76" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ortmbv6ZhttqqVJy0lko-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-75" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;b&gt;Increment Employee Count =Count+1&lt;/b&gt;" vertex="1">
+          <mxGeometry height="165" width="250" x="40" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-85" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-84" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Enter First Name&lt;br&gt;Enter Last Name&lt;br&gt;Enter Employee ID#&lt;br&gt;Enter Number of Dependents&lt;br&gt;Enter Hours Worked" vertex="1">
+          <mxGeometry height="140" width="272.5" x="37.5" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-89" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ortmbv6ZhttqqVJy0lko-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ortmbv6ZhttqqVJy0lko-88" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;b&gt;Record Employee Pay Results to the Spreadsheet&lt;/b&gt;" vertex="1">
+          <mxGeometry height="140" width="241" x="480" y="1460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
